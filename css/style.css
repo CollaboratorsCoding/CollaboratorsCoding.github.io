@@ -44,6 +44,9 @@ img {
 .blue {
   color: #37a7ff;
 }
+.yellow {
+  color: #ffbe61;
+}
 
 #particles-js {
   position: absolute;
@@ -128,6 +131,10 @@ header.hero h1 {
   font-weight: 600;
   line-height: 1.4em;
 }
+.image-hero {
+  width: 150px;
+  border-radius: 50%;
+}
 header.hero h1 span,
 header.hero h3 {
   font-weight: 300;
@@ -187,6 +194,9 @@ h1.heading:after {
 }
 h1.heading.purple:after {
   background-color: #7447ae;
+}
+h1.heading.yellow:after {
+  background-color: #ffbe61;
 }
 h1.heading.pink:after {
   background-color: #ff2a75;
