@@ -1,7 +1,3 @@
-/*!
- * Author: Akash Bhadange
- */
-
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f2f2f2;
@@ -133,7 +129,6 @@ header.hero h1 {
 }
 .image-hero {
   width: 150px;
-  border-radius: 50%;
 }
 header.hero h1 span,
 header.hero h3 {
@@ -350,6 +345,35 @@ h1.heading.pink:after {
   color: #4e4c58;
   font-size: 2em;
 }
+
+.collaborators-wrapper {
+  display: flex;
+}
+.collaborator-card {
+  background: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+  padding: 1.5em;
+  display: flex;
+  margin: 20px 0;
+  margin-left: 25px;
+}
+.collaborator-card:first-child {
+  margin-left: auto;
+}
+.collaborator-card:last-child {
+  margin-right: auto;
+}
+
+.collaborator-card > .content {
+  margin-left: 40px;
+}
+.collaborator-card .content > .social-links {
+  margin-top: 22px;
+}
+.collaborator-card .content > .social-links li {
+  background: #efefef;
+  padding: 3px;
+}
 /* Contact Banner */
 .contact-banner {
   background: url(../assets/bg-pat.png) #664fee repeat;
@@ -366,7 +390,7 @@ h1.heading.pink:after {
 /* Footer */
 .footer {
   background-color: #37324b;
-  padding: 5em;
+  padding: 2em;
 }
 .footer h1 {
   font-family: 'Montserrat', sans-serif;
@@ -511,6 +535,30 @@ ul.main-nav.show-it {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.25s;
+}
+@media (max-width: 550px) {
+  .collaborator-card {
+    margin: 20px;
+  }
+  .collaborator-card:first-child {
+    margin-left: 20px;
+  }
+  .collaborator-card:last-child {
+    margin-right: 20px;
+  }
+  .collaborators-wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 950px) {
+  .collaborator-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .collaborator-card > .content {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 /* Let's optimise it for mobile devices */
 @media (max-width: 720px) {
