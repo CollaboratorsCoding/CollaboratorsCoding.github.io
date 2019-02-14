@@ -51,9 +51,14 @@ img {
 }
 /* Hero Section */
 header.hero {
-  background-color: #7f53ac;
+  background-color: #205177;
   background-image: linear-gradient(
-    315deg,#36374e, #0f1523, #192229, #3b3954, #405d58 
+    315deg,
+    #013863,
+    #134f7d,
+    #386282,
+    #3f627d,
+    #205177
   );
 
   background-size: 400% 400%;
@@ -349,7 +354,7 @@ h1.heading.pink:after {
   background: #fff;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
   width: inherit;
-  padding: .5em;
+  padding: 0.5em;
   display: flex;
   margin: 20px 0;
   margin-left: 25px;
@@ -386,7 +391,7 @@ h1.heading.pink:after {
 }
 /* Footer */
 .footer {
-  background-color: #1c222d;
+  background-color: #001f38;
   padding: 2em;
 }
 .footer h1 {
